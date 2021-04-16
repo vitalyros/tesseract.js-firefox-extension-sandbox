@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "tesseract.js firefox sandbox",
+    "version": "1.0",
+  
+    "description": "tesseract.js firefox sandbox",
+
+  
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["tesseract/tesseract.min.js", "src/recognition.js"]
+      }
+    ],
+
+    "web_accessible_resources": [
+      "tesseract/*",
+      "lang/*",
+      "img/*"
+    ]
+  }
