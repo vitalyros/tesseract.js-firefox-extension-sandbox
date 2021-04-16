@@ -1,4 +1,4 @@
-# Tesseract.js Firefox Extention Sandbox
+# Tesseract.js Firefox Extension Sandbox
 
 Attempt to run Tesseract.js in a firefox extension.
 
